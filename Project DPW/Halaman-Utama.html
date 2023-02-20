@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="LOGO UTM.png" />
+    <title>Penyakit Pada Mata</title>
+    <!-- CSS -->
+    <style>
+      *,
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: white;
+      }
+      /* NAVBAR */
+      .navbar {
+        position: relative;
+        width: 100%;
+        height: 60px;
+        background-color: white;
+        box-shadow: -1px -7px 20px 0px gray;
+      }
+      .kotak_navbar {
+        position: relative;
+        top: 30%;
+        margin: 0;
+      }
+      .posisi_huruf_navbar {
+        float: left;
+        display: block;
+        margin: 0px 15px 0px 15px;
+      }
+      .huruf_navbar {
+        font-size: 18px;
+        font-weight: bold;
+        text-decoration: none;
+        text-align: center;
+        padding: 14px 16px;
+        color: black;
+        font-family: "Helvetica", sans-serif;
+      }
+      .huruf_kelompok {
+        font-size: 18px;
+        font-weight: bold;
+        color: black;
+        font-family: "Helvetica", sans-serif;
+      }
+      .huruf_navbar:hover {
+        background-color: #5d2fdf;
+        color: white;
+        border-radius: 20px 4px;
+        /*background-color: rgb(201, 201, 201);*/
+      }
+      .huruf_navbar:focus {
+        box-shadow: 0 0 0 3px #8659e9;
+      }
+      /* HOME */
+      .kotak_jumbptron {
+        position: relative;
+      }
+      .posisi_huruf_jumbotron {
+        position: absolute;
+      }
+      .kotak_didalam_jumbotron {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 700px;
+        height: 220px;
+        border-radius: 30px 6px;
+        background-color: white;
+      }
+      .huruf_jumbotron {
+        font-size: 50px;
+        font-weight: bold;
+        color: black;
+        font-family: "Helvetica", sans-serif;
+      }
+      /* PENYAKIT */
+      .kotak_penyakit {
+        width: 100%;
+        height: 650px;
+        background: white;
+      }
+      .huruf_penyakit {
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        color: black;
+        font-family: "Helvetica", sans-serif;
+      }
+      .huruf_penyakit_tabel {
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+        color: black;
+        font-family: "Helvetica", sans-serif;
+      }
+      .huruf_penyakit_tabel:hover {
+        background-color: #5d2fdf;
+        color: white;
+        /*background-color: rgb(201, 201, 201);*/
+      }
+      .huruf_penyakit_tabel:focus {
+        box-shadow: 0 0 0 3px #8659e9;
+      }
+      /* PESAN */
+      .kotak_pesan {
+        text-align: center;
+        width: 100%;
+        height: 420px;
+        background: gainsboro;
+      }
+      .huruf_pesan {
+        font-size: 50px;
+        font-weight: bold;
+        color: black;
+        font-family: "Helvetica", sans-serif;
+      }
+      /* POSTER */
+      .kotak_poster {
+        text-align: center;
+        width: 100%;
+        height: 505px;
+        background: white;
+      }
+      /* FOOTER */
+      .footer {
+        position: relative;
+        width: 100%;
+        height: 60px;
+        background-color: black;
+        /*box-shadow: -1px -7px 20px 0px gray;*/
+      }
+      .kotak_footer {
+        position: relative;
+        top: 30%;
+        margin: 0;
+      }
+      .huruf_footer {
+        position: absolute;
+        left: 45%;
+        font-size: 15px;
+        font-weight: bold;
+        color: white;
+        font-family: "Helvetica", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- BAGIAN NAVBAR -->
+    <nav class="navbar">
+      <ul class="kotak_navbar" style="float: left; left: 5%">
+        <li class="posisi_huruf_navbar">
+          <a href="https://www.trunojoyo.ac.id/"><img src="LOGO UTM.png" width="20px" alt="" /></a>
+        </li>
+        <li class="posisi_huruf_navbar huruf_kelompok" style="left: -13%; position: relative">KELOMPOK VII</li>
+      </ul>
+      <ul class="kotak_navbar" style="float: right; right: 5%">
+        <li class="posisi_huruf_navbar"><a class="huruf_navbar" href="#home">HOME</a></li>
+        <li class="posisi_huruf_navbar"><a class="huruf_navbar" href="#penyakit">PENYAKIT</a></li>
+        <li class="posisi_huruf_navbar"><a class="huruf_navbar" href="#pesan">PESAN</a></li>
+        <li class="posisi_huruf_navbar"><a class="huruf_navbar" href="about.html">ABOUT</a></li>
+      </ul>
+    </nav>
+    <!-- BAGIAN HOME -->
+    <div class="kotak_jumbotron" id="home">
+      <img src="sumberdaya/mata2.png" width="100%" alt="" />
+      <div class="kotak_didalam_jumbotron">
+        <div class="posisi_huruf_jumbotron huruf_jumbotron" style="left: 2.5%; position: absolute">SAYANGILAH MATA!!</div>
+        <br /><br /><br />
+        <div class="posisi_huruf_jumbotron huruf_jumbotron" style="left: 4%; position: absolute">KARENA MATA ADALAH</div>
+        <br /><br /><br />
+        <div class="posisi_huruf_jumbotron huruf_jumbotron" style="left: 0.5%; position: absolute">JENDELA DUNIA BAGI</div>
+        <br /><br /><br />
+        <div class="posisi_huruf_jumbotron huruf_jumbotron" style="left: 33%; position: absolute">MANUSIA</div>
+      </div>
+      <div style="position: absolute; top: 101%; text-align: center; left: 8%">
+        <a href="#poster" style="text-decoration: none; color: white; font-family: Helvetica, sans-serif">#Saveeyeshuman&emsp;</a>
+        <a href="#poster" style="text-decoration: none; color: white; font-family: Helvetica, sans-serif">#Matasehat&emsp;</a>
+        <a href="#poster" style="text-decoration: none; color: white; font-family: Helvetica, sans-serif">#Sayangimatakita&emsp;</a>
+        <a href="#poster" style="text-decoration: none; color: white; font-family: Helvetica, sans-serif">#Mataanugrahtuhan&emsp;</a>
+        <a href="#poster" style="text-decoration: none; color: white; font-family: Helvetica, sans-serif">#Vitaminmata&emsp;</a>
+        <a href="#poster" style="text-decoration: none; color: white; font-family: Helvetica, sans-serif">#Beranimenjagamata&emsp;</a>
+      </div>
+    </div>
+    <!-- BAGIAN PENYAKIT -->
+    <div class="kotak_penyakit" id="penyakit">
+      <br />
+      <div class="huruf_penyakit">Penyakit Yang Kemungkinan Akan Anda Alami Jika Menyakiti Mata :</div>
+      <br />
+      <center><hr size="3px" width="70%" style="background-color: black" /></center>
+      <br /><br />
+      <table width="100%" border="0" style="text-align: center">
+        <tr>
+          <td style="text-align: center; padding: 30px" width="30%">
+           <a href="./deteksi/menu_Rabun_jauh.html" style="text-decoration: none">
+              <img src="./sumberdaya/rabunjauh1.png" width="150px" alt="" />
+              <div class="huruf_penyakit_tabel">Rabun Jauh</div>
+            </a>
+          </td>
+          <td style="text-align: center; padding: 30px" width="30%">
+            <a href="./deteksi/menu_rabun_dekat.html" style="text-decoration: none">
+              <img src="./sumberdaya/rabundekat.png" width="150px" alt="" />
+              <div class="huruf_penyakit_tabel">Rabun Dekat</div>
+            </a>
+          </td>
+          <td style="text-align: center; padding: 30px" width="30%">
+           <a href="./deteksi/menu_mata_tua.html" style="text-decoration: none">
+              <img src="./sumberdaya/matatua.jpg" width="250px" alt="" />
+              <div class="huruf_penyakit_tabel">Mata Tua</div>
+            </a>
+          </td>
+        </tr>
+      </table>
+      <table>
+        <tr>
+          <td style="text-align: center; padding: 30px" width="30%" >
+            <a href="./deteksi/menu_silinder.html" style="text-decoration: none">
+              <img src="./sumberdaya/matasilinder.png" width="250px" alt="" />
+              <div class="huruf_penyakit_tabel">Mata Silinder</div>
+            </a>
+          </td>
+          <td style="text-align: center; padding: 30px" width="30%">
+            <a href="./deteksi/menu_matalelah.html" style="text-decoration: none">
+              <img src="./sumberdaya/lelah.jpg" width="250px" alt="" />
+              <div class="huruf_penyakit_tabel">Mata Lelah</div>
+            </a>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <!-- BAGIAN MENGAJAK MENJAGA MATA -->
+    <div class="kotak_pesan" id="pesan">
+      <br /><br />
+      <div class="huruf_pesan">SAYANGILAH MATA ANDA</div>
+      <div class="huruf_pesan">DENGAN PENUH KESADARAN</div>
+      <img src="./sumberdaya/mata2.jpg" width="200px" alt="" /><br /><br /><br />
+      <div>
+        <a href="#poster" style="text-decoration: none; color: black; font-family: Helvetica, sans-serif">#Saveeyeshuman&emsp;</a>
+        <a href="#poster" style="text-decoration: none; color: black; font-family: Helvetica, sans-serif">#Matasehat&emsp;</a>
+        <a href="#poster" style="text-decoration: none; color: black; font-family: Helvetica, sans-serif">#Sayangimatakita&emsp;</a>
+        <a href="#poster" style="text-decoration: none; color: black; font-family: Helvetica, sans-serif">#Mataanugrahtuhan&emsp;</a>
+        <a href="#poster" style="text-decoration: none; color: black; font-family: Helvetica, sans-serif">#Vitaminmata&emsp;</a>
+        <a href="#poster" style="text-decoration: none; color: black; font-family: Helvetica, sans-serif">#Beranimenjagamata&emsp;</a>
+      </div>
+    </div>
+    <!-- BAGIAN POSTER -->
+    <div class="kotak_poster" id="poster">
+      <table width="100%" border="0">
+        <tr>
+          <td width="58.5%">
+            <img src="./sumberdaya/poster1.png" width="175px" alt="" />
+            <img src="./sumberdaya/poster9.png" width="175px" alt="" />
+            <img src="./sumberdaya/poster3.jpg" width="175px" height="253px" alt="" />
+            <img src="./sumberdaya/poster4.png" width="175px" height="253px" alt="" />
+            <img src="./sumberdaya/poster5.jpg" width="175px" height="253px" alt="" />
+            <img src="./sumberdaya/poster6.jpg" width="175px" height="253px" alt="" />
+            <img src="./sumberdaya/poster7.jpg" width="175px" height="253px" alt="" />
+            <img src="./sumberdaya/poster8.jpg" width="175px" height="253px" alt="" />
+          </td>
+          <td width="41.5%">
+            <img src="./sumberdaya/poster10.jpg" width="500px" alt="" />
+          </td>
+        </tr>
+      </table>
+    </div>
+    <!-- BAGIAN FOOTER -->
+    <div class="footer">
+      <div class="kotak_footer">
+        <div class="huruf_footer">&COPY; by-Kelompok VII</div>
+      </div>
+    </div>
+    <!-- JAVASCRIPT -->
+    <script>
+      //alert("Web ini dibuat oleh Mahasiswa Universitas Trunojoyo Madura untuk memenuhi tugas Dasar Pemrograman Web.");
+    </script>
+  </body>
+</html>
